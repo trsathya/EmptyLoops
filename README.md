@@ -1,5 +1,5 @@
 # EmptyLoops
-Performance of 10^12 empty loops in c, c++, objc, swift and golang.
+Time taken for running 10^12 empty loops in c, c++, objc, swift and golang.
 
 $ gcc EmptyLoops.c -o c  
 $ ./c  
