@@ -31,7 +31,7 @@ Empty Loops in C++
 10^9 took 2 s  
 10^10 took 25 s  
 10^11 took 266s  
-10^12 took too long  
+10^12 took too long (~ 44 mins)  
 
 $ gcc -framework Foundation EmptyLoops.m -o objc  
 $ ./objc  
@@ -62,8 +62,8 @@ Empty Loops in Swift
 10^8 took 532.88996219635 ms  
 10^9 took 5235.9179854393 ms  
 10^10 took 53217.1320319176 ms  
-10^11 took too long  
-10^12 took too long  
+10^11 took too long (~ 8mins)  
+10^12 took too long (~ 88mins)  
 
 
 $ go run EmptyLoops.go  
